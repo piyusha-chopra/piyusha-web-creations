@@ -1,0 +1,64 @@
+*{
+    background-color:rgb(10, 28, 82)
+}
+.container{
+    padding: 5px 50px 15px 50px;
+    
+    
+}
+body{
+    padding:8px;
+    margin:10px 20px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+h1{
+    text-align: center;
+    color:white;
+    
+}
+
+p{
+    color: white;
+    text-align: center;
+    
+
+}
+h2{
+    color:white;
+    
+    
+}
+.box{
+    padding:10px;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea{
+    width:100%;
+    padding:10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: white;
+    
+
+}
+
+input[type="submit"]{
+    background-color: cornflowerblue;
+    width:20%;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: medium;
+    color: white;
+    font-weight: bold;
+    
+    
+}
+input[type="submit"]:hover{
+    background-color:rgb(131, 186, 204);
+}
