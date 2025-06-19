@@ -1,0 +1,32 @@
+body{
+    padding: 30px;
+    background-color: azure;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    
+}
+
+
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    gap:20px
+    
+}
+
+.box{
+    background-color: aquamarine;
+    border-radius: 4px;
+    width: 15%;
+    text-align: center;
+
+}
+
+
+
