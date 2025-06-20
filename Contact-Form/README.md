@@ -16,5 +16,6 @@ This is a responsive and user-friendly contact form built using pure HTML and CS
 ## 🧰 Technologies Used
 
 - HTML5
-- CSS3 
+- CSS3 (Flexbox)
 
+## 📁 Project Structure
