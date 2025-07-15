@@ -12,7 +12,7 @@ This project focuses on:
 ## 📸 Preview
 
 ![Amazon Clone Screenshot](/Amazon%20Clone/Amazon%20Clone%20(Resources)/screenshot.png) 
-*Replace with your actual screenshot.*
+
 
 ## 🧰 Tech Stack
 
@@ -27,15 +27,9 @@ This project focuses on:
 - Basic footer section
 - Static layout, no interactivity (no JavaScript)
 
-## 🚀 Getting Started
+## 🚀 How to Run
 
-To view locally:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/piyusha_chopra/Amazon-Clone.git
-
-2. Open index.html in your browser.
+ Open index.html in your browser.
 
 
 📌 Notes
