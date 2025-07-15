@@ -12,7 +12,7 @@ This project focuses on:
 ## 📸 Preview
 
 ![Amazon Clone Screenshot](/Amazon%20Clone/Amazon%20Clone%20(Resources)/screenshot.png) 
-*Replace with your actual screenshot.*
+
 
 ## 🧰 Tech Stack
 
