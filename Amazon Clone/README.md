@@ -27,15 +27,9 @@ This project focuses on:
 - Basic footer section
 - Static layout, no interactivity (no JavaScript)
 
-## 🚀 Getting Started
+## 🚀 How to Run
 
-To view locally:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/piyusha_chopra/Amazon-Clone.git
-
-2. Open index.html in your browser.
+ Open index.html in your browser.
 
 
 📌 Notes
