@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io (6)/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io (6)/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img style="cursor: pointer;" class="invert" src="svg/logo.svg" alt="logo">
+        </div>
+        <div class="home">
+            <img class="invert" src="svg/home.svg" alt="home">
+        </div>
+        <div class="search-bar">
+            <img class="search" src="svg/search.svg" alt="search">
+            <span class="search-song">What do you want to play?</span>
+            <span class="line-1" style="padding: 0px; color:#B3B3B3;">|</span>
+            <img class="data" src="svg/data.svg" alt="data">
+        </div>
+        <span class="premium">Premium</span>
+        <span class="support">Support</span>
+        <span class="download">Download</span>
+        <span class="line-2" style="color: white; margin: 16px;padding-left: 10px">|</span>
+        <div class="install">
+            <img class="installImg"src="svg/install.svg" alt="install">
+            <span class="install-app">Install App</span>
+        </div>
+        <span class="sign-up">Sign up</span>
+        <button class="log-in">Log in</button>
+        <img id="Hamburger" class="hamburger" src="svg/hamburger.svg" alt="hamburger">
+        <div class="hamburgerList">
+            <ul>
+                <li>Premium</li>
+                <li>Support</li>
+                <li>Download</li>
+            </ul>
+        </div>
+    
+    </div>
+    <div class="container">
+        <div class="left">
+            <div class="close">
+                <img src="svg/close.svg">
+            </div>
+
+            <div class="left-1">
+                <span>Your Library</span>
+                <img src="svg/plus.svg" alt="more">
+            </div>
+            <div class="scroll">
+                <div class="songsList">
+                    <ul>
+                       
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="policies">
+                <span>Legal</span>
+                <span>Safety&Privacy Centre</span>
+                <span>Privacy Policy</span>
+                <span>Cookies</span>
+                <span>About Ads</span>
+                <span>Accessibility</span>
+                <h6 class="cookies">Cookies</h6>
+            </div>
+            <div class="box-3">
+                <buttton class="language">
+                    <img src="svg/language.svg">
+                    English
+                </buttton>
+            </div>
+        </div>
+        <div class="right">
+            
+            <h2>Spotify Playlists</h2>
+            <div class="cardContainer">
+            
+            </div>
+            
+        </div>
+        <div class="mediaControls">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="mediaTop">
+                        <div class="songInfo"></div>
+                        <div class="volume">
+                            <div class="volumeButton">
+                                <img src="svg/volume.svg">
+                            </div>
+                            <div class="volumeControl">
+                                <input type="range" name="volume" >
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="buttons">
+                        <i id="previous" class="fa-solid fa-backward-step"></i>
+                        <img id="start" src="svg/start.svg"></i>
+                        <i id="next" class="fa-solid fa-forward-step"></i>
+                    </div>
+                    <div class="songTimeline">
+                        <div class="currentTime"></div>
+                        <div class="totalTime"></div>
+                    </div>
+            </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
