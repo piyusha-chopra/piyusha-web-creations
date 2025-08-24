@@ -339,7 +339,7 @@ h5{
 
 /* Scroll thumb (the scroll handle) */
 .cardContainer::-webkit-scrollbar-thumb {
-  background-color: #555;       /* dark gray like Spotify */
+  background-color: #555;       
   
 }
 
