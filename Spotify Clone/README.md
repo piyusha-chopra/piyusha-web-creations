@@ -25,6 +25,10 @@ It replicates core UI features of Spotify with an interactive music player and r
 
 ---
 
+📸 Preview
+
+![Spotify Clone Screenshot](assets/images/screenshot%20.png)  
+
 ## 📂 Installation
 
 ```bash
